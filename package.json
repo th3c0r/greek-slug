@@ -1,0 +1,39 @@
+{
+  "name": "greek-slug",
+  "version": "1.0.0",
+  "description": "Greek titles to urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3c0r/greek-slug.git"
+  },
+  "keywords": [
+    "greek-slug",
+    "slug",
+    "urls",
+    "greek",
+    "greece"
+  ],
+  "author": "th3c0r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th3c0r/greek-slug/issues"
+  },
+  "homepage": "https://github.com/th3c0r/greek-slug#readme",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-loader": "^8.0.4",
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
